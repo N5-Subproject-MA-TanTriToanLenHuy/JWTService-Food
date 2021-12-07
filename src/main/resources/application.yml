@@ -7,3 +7,6 @@ eureka:
     non-secure-port: 80
     secure-port: 443
     secure-port-enabled: false
+  client:
+    serviceUrl:
+      defaultZone: https://n5-service-discovery.herokuapp.com/
