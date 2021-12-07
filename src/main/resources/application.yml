@@ -9,4 +9,4 @@ eureka:
     secure-port-enabled: false
   client:
     serviceUrl:
-      defaultZone: https://n5-service-discovery.herokuapp.com/
+      defaultZone: https://n5-service-discovery.herokuapp.com/eureka
