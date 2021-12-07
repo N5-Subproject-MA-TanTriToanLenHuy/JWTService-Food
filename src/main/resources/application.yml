@@ -1,11 +1,9 @@
-
 eureka:
-  client:
-    register-with-eureka:
-      value: true
-    fetch-registry:
-      value: true;
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-    instance:
-      hostname: localhost
+  instance:
+    hostname: n5-jwt-food.herokuapp.com
+    homePageUrl: https://${eureka.instance.hostName}/
+    home-page-url-path: https://${eureka.instance.hostName}
+    non-secure-port-enabled: true
+    non-secure-port: 80
+    secure-port: 443
+    secure-port-enabled: false
